@@ -1,5 +1,3 @@
-# If there is an error at line 7, type "pip install websocket_client" into the command line and then run again
-
 import json
 import random
 import sys
@@ -27,7 +25,7 @@ def changegame(token, game, type, status):
         gamejson = {
             "name": game,
             "type": 1,
-            "url": "https://www.twitch.tv/soulless.cc"
+            "url": "https://github.com/Snowy404/DiscordTokenHoster/"
         }
     elif type == "Listening to":
         gamejson = {
@@ -73,10 +71,10 @@ def changegame(token, game, type, status):
 
 def main():
     types = ['Playing', 'Streaming', 'Watching', 'Listening to']
-    type = "Playing"
-    game = "Token Hoster"
+    type = "Streaming"
+    game = "Snowy's Token Hoster"
     status = ['online', 'dnd', 'idle','random']
-    status = status[3]
+    status = status[4]
     executor = ThreadPoolExecutor(max_workers=1000)
 
     for token in open("tokens.txt","r+").readlines():
