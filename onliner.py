@@ -8,7 +8,6 @@ import websocket
 
 
 def changegame(token, game, type, status):
-    print("Done " + token)
     ws = websocket.WebSocket()
     if status == "random":
         stat = ['online', 'dnd', 'idle']
@@ -74,7 +73,7 @@ def main():
     type = "Streaming"
     game = "Snowy's Token Hoster"
     status = ['online', 'dnd', 'idle','random']
-    status = status[4]
+    status = status[3]
     executor = ThreadPoolExecutor(max_workers=1000)
 
     for token in open("tokens.txt","r+").readlines():
