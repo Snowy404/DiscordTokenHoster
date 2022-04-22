@@ -24,7 +24,7 @@ def changegame(token, game, type, status):
         gamejson = {
             "name": game,
             "type": 1,
-            "url": "https://github.com/Snowy404/DiscordTokenHoster/"
+            "url": "https://twitch.tv/snowy404"
         }
     elif type == "Listening to":
         gamejson = {
@@ -78,5 +78,7 @@ def main():
 
     for token in open("tokens.txt","r+").readlines():
         threading.Thread(target=lambda : changegame(token.replace("\n",""), game, type, status)).start()
+
+print("Successfuly hosting all tokens!")
 
 main()
