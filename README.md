@@ -5,7 +5,7 @@ Credits to [ItsMerkz](https://github.com/ItsMerkz/Discord-Token-Hoster) for the 
 
 Download by clicking "Code" and then "Download Zip"
 
-Place your tokens in tokens.txt and run the file via the command line.
+Place your tokens in tokens.txt and open "Run.bat".
 
 If there is an error at line 7, type "pip install websocket_client" into the command line and then run the program again.
 
