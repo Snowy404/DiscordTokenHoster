@@ -78,7 +78,4 @@ def main():
 
     for token in open("tokens.txt","r+").readlines():
         threading.Thread(target=lambda : changegame(token.replace("\n",""), game, type, status)).start()
-
-print("Successfuly hosting all tokens!")
-
 main()
