@@ -1,7 +1,7 @@
 # DiscordTokenHoster
 A simple discord token hoster in Python.
 
-Credits to [ItsMerkz](https://github.com/ItsMerkz/Discord-Token-Hoster) for the original code, I just fixed it.
+Credits to [ItsMerkz](https://github.com/ItsMerkz/Discord-Token-Hoster) for the original code.
 
 Download by clicking "Code" and then "Download Zip"
 
@@ -9,4 +9,4 @@ Place your tokens in tokens.txt and open "Run.bat".
 
 If there is an error at line 7, type "pip install websocket_client" into the command line and then run the program again.
 
-You can edit the status at line 77.
+You can edit the status at line 77 of onliner.py
