@@ -13,9 +13,9 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Snowy404/DiscordTokenHoster">
 
 ## Features
-- [X] [Multiple Account Support](https://github.com/ItsMerkz/Discord-Token-Hoster)
-- [X] [Custom RPC Support](https://github.com/ItsMerkz/Discord-Token-Hoster)
+- [X] [Multiple Account Support](https://github.com/rn3r/token-onliner/tree/main)
 - [X] [Automatic Refreshing](https://github.com/Snowy404/DiscordTokenHoster)
+- [ ] [Custom RPC Support](https://github.com/ItsMerkz/Discord-Token-Hoster)
 - [ ] [Replit Support](https://github.com/Snowy404/DiscordTokenHoster)
 
 ## How To Install
