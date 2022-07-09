@@ -1,12 +1,37 @@
-# DiscordTokenHoster
-A simple discord token hoster in Python.
+<p align="center">
+  <img src="https://i.discord.fr/PSS.png">
+</p>
 
-Credits to [ItsMerkz](https://github.com/ItsMerkz/Discord-Token-Hoster) for the original code.
+<h1 align="center">Discord Token Hoster</h1>
 
-Download by clicking "Code" and then "Download Zip"
+<p align="center">
+<img alt="Discord" src="https://img.shields.io/discord/872452467810517023">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Snowy404/DiscordTokenHoster">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Snowy404/DiscordTokenHoster">
 
-Place your tokens in tokens.txt and open "Run.bat".
+## Features
+- [X] [Multiple Account Support](https://github.com/ItsMerkz/Discord-Token-Hoster)
+- [X] [Custom RPC Support](https://github.com/ItsMerkz/Discord-Token-Hoster)
+- [X] [Automatic Refreshing](https://github.com/Snowy404/DiscordTokenHoster)
+- [ ] [Replit Support](https://github.com/Snowy404/DiscordTokenHoster)
 
-If there is an error at line 7, type "pip install websocket_client" into the command line and then run the program again.
+## How To Install
 
-You can edit the status at line 77 of onliner.py
+#### Automatic Installation
+
+Download an [archive](https://github.com/Snowy404/DiscordTokenHoster/archive/refs/heads/main.zip) of the repositiory, and open "Run.bat"
+
+#### Manual Installation
+```
+$ git clone https://github.com/Snowy404/DiscordTokenHoster.git
+$ python -m pip install -r requirements.txt
+$ python onliner.py
+```
+
+## Additional Information
+- If you have a problem, [click here](https://discord.gg/Hkt4Ef5wQV) to join my Discord server.
+- You could also [open an issue](https://github.com/Snowy404/DiscordTokenHoster/issues), however support will be slower there.
+
+## Errors/Fixes
+- Error at line 7:
+Open command prompt and type `pip install websocket_client`
