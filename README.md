@@ -27,7 +27,6 @@ Download an [archive](https://github.com/Snowy404/DiscordTokenHoster/archive/ref
 #### Manual Installation
 ```
 $ git clone https://github.com/Snowy404/DiscordTokenHoster.git
-$ python -m pip install -r requirements.txt
 $ python onliner.py
 ```
 
