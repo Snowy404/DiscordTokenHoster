@@ -35,5 +35,4 @@ $ python onliner.py
 - You could also [open an issue](https://github.com/Snowy404/DiscordTokenHoster/issues), however support will be slower there.
 
 ## Errors/Fixes
-- Error at line 7:
-Open command prompt and type `pip install websocket_client`
+- No known errors 😎
